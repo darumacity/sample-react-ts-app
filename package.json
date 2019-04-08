@@ -46,11 +46,15 @@
     "react-app-polyfill": "^0.2.2",
     "react-dev-utils": "^8.0.0",
     "react-dom": "^16.8.6",
+    "react-redux": "^6.0.1",
+    "redux": "^4.0.1",
     "resolve": "1.10.0",
     "sass-loader": "7.1.0",
     "style-loader": "0.23.1",
     "terser-webpack-plugin": "1.2.2",
     "typescript": "3.4.1",
+    "typescript-fsa": "^3.0.0-beta-2",
+    "typescript-fsa-reducers": "^1.2.1",
     "url-loader": "1.1.2",
     "webpack": "4.28.3",
     "webpack-dev-server": "3.1.14",
@@ -120,5 +124,8 @@
     "presets": [
       "react-app"
     ]
+  },
+  "devDependencies": {
+    "@types/react-redux": "^7.0.6"
   }
 }
