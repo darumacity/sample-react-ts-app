@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
+import 'react-mdl/extra/material.css';
+import 'react-mdl/extra/material.js';
 import createStore from '../redux/create';
 import App from './App/App';
 import * as serviceWorker from './serviceWorker';

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Dispatch, bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
+import { Button } from 'react-mdl';
 import { AppState } from '../../redux/modules/reducer';
 import * as user from '../../redux/modules/user';
 
@@ -13,6 +14,7 @@ class App extends Component<TMergedProps, any> {
       <div className="App">
         {this.props.user.count}
         <button onClick={() => { this.props.updateCount({ count: ++this.props.user.count }) }}>increment</button>
+        <Button raised colored>Button</Button>
       </div>
     );
   }
